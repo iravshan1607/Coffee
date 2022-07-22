@@ -1,11 +1,19 @@
-@import "header";
-@import "product";
-@import "about";
-@import "works";
-@import "footer";
+@import 'header';
+@import 'product';
+@import 'about';
+@import 'works';
+@import 'footer';
 
 .container {
   width: 1400px;
   margin: 0 auto;
   padding: 0 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 768px;
+    margin: 0 auto;
+    padding: 0 39px;
+  }
 }

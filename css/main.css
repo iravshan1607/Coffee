@@ -91,6 +91,56 @@
   margin-bottom: 116px;
 }
 
+@media only screen and (max-width: 768px) {
+  #header {
+    width: 768px;
+  }
+  #banner {
+    width: 760px;
+    height: 485px;
+    margin-top: 54.56px;
+    margin-bottom: 144px;
+    padding-top: 104px;
+    padding-left: 58px;
+    background-image: url(../images/responsive_bitmap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #banner__title {
+    width: 329px;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    color: #fefcf7;
+  }
+  #banner__description {
+    width: 398px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  #banner__button {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    text-align: center;
+    color: #fefcf7;
+    color: #fefcf7;
+    background-color: #66d2cf;
+  }
+}
 .product__info {
   height: 524px;
   margin: 0 auto;
@@ -100,7 +150,7 @@
   background-repeat: no-repeat;
 }
 
-#product__info-list {
+.product__info-list {
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -152,6 +202,31 @@
   cursor: grabbing;
 }
 
+@media only screen and (max-width: 768px) {
+  .product__info {
+    width: 768px;
+  }
+  .product__info {
+    width: 710px;
+    padding-top: 85px;
+    padding-left: 58;
+    height: 927px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 768px;
+  }
+  .product__link {
+    width: 573px;
+    display: flex;
+  }
+  #product__info-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+}
 #about {
   background-color: #282f38;
   border-radius: 8px;
@@ -376,4 +451,12 @@ svg path:hover {
   width: 1400px;
   margin: 0 auto;
   padding: 0 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 768px;
+    margin: 0 auto;
+    padding: 0 39px;
+  }
 }/*# sourceMappingURL=main.css.map */
