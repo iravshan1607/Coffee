@@ -1,0 +1,11 @@
+@import 'header';
+@import 'product';
+@import 'about';
+@import 'works';
+@import 'footer';
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0 80px;
+}

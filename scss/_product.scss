@@ -1,0 +1,64 @@
+.product__info {
+  height: 524px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  background-position: top center;
+  background-image: url(../images/our_colletion.png);
+  background-repeat: no-repeat;
+}
+
+#product__info-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 126px;
+}
+
+.product__info-item {
+  display: inline-block;
+}
+
+.product__info-img {
+  text-align: center;
+}
+
+.product__info-title {
+  text-align: center;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  color: #333d4b;
+}
+
+.product__info-description {
+  width: 245px;
+  text-align: center;
+
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+
+  color: #333d4b;
+}
+
+.product__link{
+    text-decoration: none;
+    &:hover{
+        cursor: grab;
+    }
+
+    &:active{
+        cursor: grabbing;
+    }
+}

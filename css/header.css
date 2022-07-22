@@ -1,0 +1,62 @@
+#header__logo-img {
+  display: inline-block;
+}
+
+.navbar {
+  float: right;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+.navbar a:hover {
+  color: #333d4b;
+}
+
+.navbar li {
+  display: inline;
+  margin: 5px 16px;
+}
+
+.banner {
+  height: 313px;
+  margin-top: 45px;
+  padding-top: 137px;
+  border-radius: 8px;
+  background-image: url(../images/Bitmap.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#banner__title {
+  display: inline-block;
+  margin-left: 85px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #fefcf7;
+}
+
+#banner__description {
+  width: 445px;
+  margin-left: 85px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #fefcf7;
+}/*# sourceMappingURL=header.css.map */

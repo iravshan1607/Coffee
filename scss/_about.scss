@@ -1,0 +1,86 @@
+#about {
+  background-color: #282f38;
+  border-radius: 8px;
+  width: 1380px;
+  height: 467px;
+  margin: 0;
+  padding-top: 110px;
+}
+#about__title {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+
+  text-align: center;
+
+  color: #fefcf7;
+}
+
+#about__description {
+  margin: 0 auto;
+  width: 540px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+
+  color: #fefcf7;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+// ABOUT CARD LIST
+
+#about__card {
+  width: 1110px;
+  margin: 85px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__card-list {
+  list-style: none;
+  width: 350px;
+  height: 382px;
+  background-color: #0e8684;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__card-title {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  color: #fefcf7;
+}
+
+.about__card-discription {
+  width: 255px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+
+  color: #fefcf7;
+}

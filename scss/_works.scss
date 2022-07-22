@@ -1,0 +1,109 @@
+.works {
+  margin-top: 350px;
+  margin-left: 85px;
+}
+
+#works__title {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  color: #83888f;
+}
+
+#works__oval {
+  margin-top: 80px;
+
+  display: flex;
+  justify-content: space-between;
+  width: 830px;
+}
+
+.oval {
+  width: 31px;
+  height: 31px;
+  border: 2px solid #0e8784;
+  border-radius: 50%;
+}
+
+#hr-line {
+  border: 0 solid #fdd6b9;
+  position: absolute;
+  width: 353px;
+  height: 3px;
+  background-color: #fdd6b9;
+  margin-top: 32px;
+  margin-left: 36px;
+}
+
+#hr-line2 {
+  border: 0 solid #fdd6b9;
+  position: absolute;
+  width: 353px;
+  height: 3px;
+  background-color: #fdd6b9;
+  margin-top: 32px;
+  margin-left: 433px;
+}
+
+#works__card-list {
+  padding: 0;
+  list-style: none;
+  width: 1045px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.works__card-title {
+  width: 255px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  /* or 112% */
+
+  color: #333d4b;
+}
+
+.works__card-discription {
+  width: 285px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #333d4b;
+
+  margin-bottom: 64px;
+}
+
+#works__link {
+  background-color: #66d2cf;
+  border-radius: 6px;
+  padding: 16px 31px;
+  margin-top: 64px;
+  text-decoration: none;
+
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+
+  text-align: center;
+
+  color: #fefcf7;
+
+  &:hover {
+    color: rgb(241, 160, 130);
+    cursor: grab;
+    background-color: #0e8784;
+  }
+}

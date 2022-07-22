@@ -1,0 +1,60 @@
+.headquarter {
+  width: 1280px;
+  margin-top: 168px;
+}
+
+#headquarter__title {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  color: #83888f;
+}
+
+#headquarter__container ul {
+  width: 1045px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.headquarter__cards {
+  width: 285px;
+  height: 262px;
+  margin-top: 72px;
+}
+.headquarter__title {
+  width: 272px;
+  margin-top: 45.93px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height, or 112% */
+
+  color: #333d4b;
+}
+.headquarter__discription {
+  margin-top: 24px;
+  width: 285px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #333d4b;
+}
+
+.headquarter__discription p {
+  &:hover {
+    width: 150px;
+    color: coral;
+    border: 1px solid #0c8ce9;
+  }
+}

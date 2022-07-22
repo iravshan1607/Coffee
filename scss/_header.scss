@@ -1,0 +1,110 @@
+#header__logo-img {
+  display: inline-block;
+}
+
+.navbar {
+  float: right;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+
+  color: #83888f;
+
+  &:hover {
+    color: #333d4b;
+  }
+}
+
+.navbar li {
+  display: inline;
+  margin: 5px 16px;
+}
+
+.navbar strong {
+  color: #333d4b;
+}
+
+//  CREATE BANNER
+
+#banner {
+  height: 485px;
+
+  margin-top: 45px;
+  margin-bottom: 136px;
+
+  padding-top: 117px;
+  padding-left: 86px;
+
+  border-radius: 10px;
+
+  background-image: url(../images/Bitmap.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    /* or 100% */
+
+    color: #fefcf7;
+  }
+
+  &__description {
+    width: 435px;
+    margin-bottom: 56px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #fefcf7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+
+  &__button {
+    padding: 15px 31px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+    text-align: center;
+
+    color: #fefcf7;
+    background-color: #66d2cf;
+
+    &:hover {
+      color: coral;
+      background-color: #727e8e;
+    }
+  }
+}
+
+.banner__card {
+  width: 493px;
+  height: 367px;
+  margin-bottom: 116px;
+}

@@ -1,0 +1,379 @@
+#header__logo-img {
+  display: inline-block;
+}
+
+.navbar {
+  float: right;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+.navbar a:hover {
+  color: #333d4b;
+}
+
+.navbar li {
+  display: inline;
+  margin: 5px 16px;
+}
+
+.navbar strong {
+  color: #333d4b;
+}
+
+#banner {
+  height: 485px;
+  margin-top: 45px;
+  margin-bottom: 136px;
+  padding-top: 117px;
+  padding-left: 86px;
+  border-radius: 10px;
+  background-image: url(../images/Bitmap.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#banner__title {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  /* or 100% */
+  color: #fefcf7;
+}
+#banner__description {
+  width: 435px;
+  margin-bottom: 56px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+#banner__button {
+  padding: 15px 31px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  color: #fefcf7;
+  background-color: #66d2cf;
+}
+#banner__button:hover {
+  color: coral;
+  background-color: #727e8e;
+}
+
+.banner__card {
+  width: 493px;
+  height: 367px;
+  margin-bottom: 116px;
+}
+
+.product__info {
+  height: 524px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  background-position: top center;
+  background-image: url(../images/our_colletion.png);
+  background-repeat: no-repeat;
+}
+
+#product__info-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 126px;
+}
+
+.product__info-item {
+  display: inline-block;
+}
+
+.product__info-img {
+  text-align: center;
+}
+
+.product__info-title {
+  text-align: center;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #333d4b;
+}
+
+.product__info-description {
+  width: 245px;
+  text-align: center;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  color: #333d4b;
+}
+
+.product__link {
+  text-decoration: none;
+}
+.product__link:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.product__link:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+#about {
+  background-color: #282f38;
+  border-radius: 8px;
+  width: 1380px;
+  height: 467px;
+  margin: 0;
+  padding-top: 110px;
+}
+
+#about__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  text-align: center;
+  color: #fefcf7;
+}
+
+#about__description {
+  margin: 0 auto;
+  width: 540px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+#about__card {
+  width: 1110px;
+  margin: 85px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__card-list {
+  list-style: none;
+  width: 350px;
+  height: 382px;
+  background-color: #0e8684;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__card-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #fefcf7;
+}
+
+.about__card-discription {
+  width: 255px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  color: #fefcf7;
+}
+
+.works {
+  margin-top: 350px;
+  margin-left: 85px;
+}
+
+#works__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #83888f;
+}
+
+#works__oval {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  width: 830px;
+}
+
+.oval {
+  width: 31px;
+  height: 31px;
+  border: 2px solid #0e8784;
+  border-radius: 50%;
+}
+
+#hr-line {
+  border: 0 solid #fdd6b9;
+  position: absolute;
+  width: 353px;
+  height: 3px;
+  background-color: #fdd6b9;
+  margin-top: 32px;
+  margin-left: 36px;
+}
+
+#hr-line2 {
+  border: 0 solid #fdd6b9;
+  position: absolute;
+  width: 353px;
+  height: 3px;
+  background-color: #fdd6b9;
+  margin-top: 32px;
+  margin-left: 433px;
+}
+
+#works__card-list {
+  padding: 0;
+  list-style: none;
+  width: 1045px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.works__card-title {
+  width: 255px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  /* or 112% */
+  color: #333d4b;
+}
+
+.works__card-discription {
+  width: 285px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #333d4b;
+  margin-bottom: 64px;
+}
+
+#works__link {
+  background-color: #66d2cf;
+  border-radius: 6px;
+  padding: 16px 31px;
+  margin-top: 64px;
+  text-decoration: none;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  color: #fefcf7;
+}
+#works__link:hover {
+  color: rgb(241, 160, 130);
+  cursor: -webkit-grab;
+  cursor: grab;
+  background-color: #0e8784;
+}
+
+.footer {
+  background-color: #2c343e;
+  border-radius: 10px;
+  margin-top: 200px;
+  padding: 48px 85px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer__list {
+  width: 283px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__item {
+  text-decoration: none;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+
+.footer__icon {
+  width: 120px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+svg path:hover {
+  fill: coral;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0 80px;
+}/*# sourceMappingURL=main.css.map */
