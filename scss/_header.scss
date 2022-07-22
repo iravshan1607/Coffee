@@ -8,7 +8,7 @@
 
 .navbar a {
   text-decoration: none;
-  font-family: "Barlow";
+  font-family: 'Barlow';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -54,7 +54,7 @@
   &__title {
     margin-top: 0;
     margin-bottom: 32px;
-    font-family: "Fraunces";
+    font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -67,7 +67,7 @@
   &__description {
     width: 435px;
     margin-bottom: 56px;
-    font-family: "Barlow";
+    font-family: 'Barlow';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -84,7 +84,7 @@
     padding: 15px 31px;
     border-radius: 6px;
     text-decoration: none;
-    font-family: "Fraunces 9pt";
+    font-family: 'Fraunces 9pt';
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
@@ -107,70 +107,4 @@
   width: 493px;
   height: 367px;
   margin-bottom: 116px;
-}
-
-// RESPONSIVE
-
-@media only screen and (max-width: 768px) {
-  #header {
-    width: 768px;
-  }
-
-  #banner {
-    width: 760px;
-    height: 485px;
-
-    margin-top: 54.56px;
-    margin-bottom: 144px;
-
-    padding-top: 104px;
-    padding-left: 58px;
-
-    background-image: url(../images/responsive_bitmap.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    &__title {
-      width: 329px;
-      font-family: "Fraunces";
-      font-style: normal;
-      font-weight: 900;
-      font-size: 48px;
-      line-height: 48px;
-      /* or 100% */
-
-      color: #fefcf7;
-    }
-
-    &__description {
-      width: 398px;
-      font-family: "Barlow";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 15px;
-      line-height: 25px;
-      /* or 167% */
-
-      color: #fefcf7;
-
-      mix-blend-mode: normal;
-      opacity: 0.8;
-    }
-
-    &__button {
-      font-family: "Fraunces";
-      font-style: normal;
-      font-weight: 900;
-      font-size: 18px;
-      line-height: 25px;
-      /* identical to box height, or 139% */
-
-      text-align: center;
-
-      color: #fefcf7;
-
-      color: #fefcf7;
-      background-color: #66d2cf;
-    }
-  }
 }

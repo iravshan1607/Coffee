@@ -15,8 +15,8 @@
 }
 
 .footer__item {
-  text-decoration: none;
-  font-family: "Barlow";
+    text-decoration: none;
+  font-family: 'Barlow';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -37,8 +37,8 @@
   align-items: center;
 }
 
-svg path {
-  &:hover {
-    fill: coral;
-  }
+svg path{
+    &:hover{
+        fill: coral;
+    }
 }
