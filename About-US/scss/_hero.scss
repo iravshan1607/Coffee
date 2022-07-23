@@ -5,40 +5,92 @@
   border-radius: 6px;
   display: flex;
   justify-content: space-around;
+
+  &__title {
+    margin-bottom: 32px;
+    font-family: 'Fraunces ';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+    color: #fefcf7;
+  }
+
+  &__discription {
+    width: 505px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #fefcf7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
 }
 
-.hero__header{
-    margin: 100px 655px 176px 85px;
+.hero__header {
+  margin: 100px 655px 176px 85px;
 }
 
-#hero__title {
-  font-family: 'Fraunces ';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 48px;
-  /* identical to box height, or 120% */
-
-  color: #fefcf7;
-}
-
-#hero__discription {
-  width: 540px;
-  font-family: 'Barlow';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  /* or 162% */
-
-  color: #fefcf7;
-
-  mix-blend-mode: normal;
-  opacity: 0.8;
-}
-
-#hero__image {
+.hero__image {
   position: absolute;
-  margin-left: 295px;
+  margin-left: 515px;
   margin-top: -126px;
+}
+
+// RESPONSIVE
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    margin-top: 224px;
+    width: 688px;
+    padding: 50px;
+    background-color: #293039;
+    border-radius: 6px;
+
+    &__image {
+      position: absolute;
+      margin-top: -160px;
+      margin-left: 0;
+    }
+
+    &__header {
+      margin: 224px 74px 67px 74px;
+    }
+
+    &__title {
+      font-family: 'Fraunces';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 48px;
+      /* identical to box height, or 150% */
+
+      text-align: center;
+
+      color: #fefcf7;
+    }
+
+    &__discription {
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      /* or 167% */
+
+      text-align: center;
+
+      color: #fefcf7;
+
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
+  }
 }
