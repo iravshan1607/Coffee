@@ -1,4 +1,8 @@
 #about {
+  width: 1280px;
+  height: 728px;
+}
+.about__hero {
   background-color: #282f38;
   border-radius: 8px;
   width: 1380px;
@@ -40,8 +44,9 @@
 // ABOUT CARD LIST
 
 #about__card {
+  margin-top: -225px;
   width: 1110px;
-  margin: 85px;
+  margin-left: 85px;
   display: flex;
   justify-content: space-between;
 }
@@ -83,4 +88,105 @@
   text-align: center;
 
   color: #fefcf7;
+}
+
+// RESPONSIVE
+
+@media only screen and (max-width: 768px) {
+  ul,
+  li,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    margin: 0;
+  }
+  #about {
+    width: 688px;
+    height: 863px;
+
+    &__title {
+      margin-bottom: 24px;
+      font-family: 'Fraunces 9pt';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 48px;
+      /* identical to box height, or 150% */
+
+      text-align: center;
+
+      color: #fefcf7;
+    }
+
+    &__discription {
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      /* or 167% */
+
+      text-align: center;
+
+      color: #fefcf7;
+
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
+  }
+  .about__hero {
+    margin-top: 144px;
+    background-color: #282f38;
+    border-radius: 8px;
+    width: 688px;
+    height: 573px;
+    margin: 0;
+    padding-top: 110px;
+  }
+
+  #about__card {
+    padding: 0;
+    margin-top: -340px;
+    margin-left: 57px;
+    width: 1110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .about__card-list {
+    margin-top: 20px;
+    list-style: none;
+    width: 573px;
+    height: 180px;
+    background-color: #0e8684;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about__card-title {
+    text-align: left;
+    margin-bottom: 16px;
+  }
+
+  .about__card-discription {
+    width: 344px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+    color: #fefcf7;
+    text-align: left;
+  }
+
+  .about-card__text {
+    margin-left: 55.5px;
+  }
 }

@@ -58,6 +58,7 @@
 }
 
 .works__card-title {
+  margin-top: 42px;
   width: 255px;
   font-family: 'Fraunces';
   font-style: normal;
@@ -70,6 +71,7 @@
 }
 
 .works__card-discription {
+  margin-top: 39px;
   width: 285px;
   font-family: 'Barlow';
   font-style: normal;
@@ -105,5 +107,90 @@
     color: rgb(241, 160, 130);
     cursor: grab;
     background-color: #0e8784;
+  }
+}
+
+// RESPONSIVE
+
+@media only screen and (max-width: 768px) {
+  #works__oval {
+    margin-top: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    width: 565px;
+  }
+
+  #hr-line {
+    border: 0 solid #fdd6b9;
+    position: absolute;
+    width: 228px;
+    height: 3px;
+    background-color: #fdd6b9;
+    margin-top: 17px;
+    margin-left: 35px;
+  }
+
+  #hr-line2 {
+    border: 0 solid #fdd6b9;
+    position: absolute;
+    width: 230px;
+    height: 3px;
+    background-color: #fdd6b9;
+    margin-top: 17px;
+    margin-left: 300px;
+  }
+
+  #works__card-list {
+    padding: 0;
+    list-style: none;
+    width: 689px;
+    display: flex;
+    justify-content: space-between;
+
+    width: 689px;
+  }
+  .works__card-title {
+    width: 220px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 32px;
+    /* or 114% */
+
+    color: #333d4b;
+  }
+
+  .works__card-discription {
+    width: 170px;
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    /* or 167% */
+
+    color: #333d4b;
+  }
+
+  #works__link {
+    background-color: #0e8684;
+    border-radius: 6px;
+    padding: 16px 31px;
+    margin-top: 64px;
+    text-decoration: none;
+
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+    text-align: center;
+
+    color: #fefcf7;
   }
 }

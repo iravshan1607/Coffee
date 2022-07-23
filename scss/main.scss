@@ -9,3 +9,12 @@
   margin: 0 auto;
   padding: 0 80px;
 }
+
+// RESPONSIVE
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 768px;
+    border: 1px solid red;
+  }
+}

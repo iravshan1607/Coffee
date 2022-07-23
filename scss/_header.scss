@@ -108,3 +108,70 @@
   height: 367px;
   margin-bottom: 116px;
 }
+
+// RESPONSIVE
+
+@media only screen and (max-width: 768px) {
+  #banner {
+    height: 485px;
+
+    margin-top: 45px;
+    margin-bottom: 136px;
+
+    padding-top: 117px;
+    padding-left: 86px;
+
+    border-radius: 10px;
+
+    background-image: url(../images/responsive_bitmap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__title {
+      font-family: 'Fraunces';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 72px;
+      /* or 100% */
+
+      color: #fefcf7;
+    }
+
+    &__description {
+      width: 398px;
+      text-align: left;
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      /* or 167% */
+
+      color: #fefcf7;
+
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
+
+    &__button {
+      font-family: 'Fraunces 9pt';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 25px;
+      /* identical to box height, or 139% */
+
+      text-align: center;
+
+      color: #fefcf7;
+
+      background-color: #0e8684;
+
+      &:hover {
+        color: coral;
+        background-color: #727e8e;
+      }
+    }
+  }
+}

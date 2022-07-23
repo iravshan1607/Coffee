@@ -62,3 +62,58 @@
     cursor: grabbing;
   }
 }
+
+// RESPONSIVE
+
+@media only screen and (max-width: 768px) {
+  .product__info {
+    width: 768px;
+    height: 1027px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding-top: 59px;
+    padding-left: 58px;
+    background-position: top center;
+    background-image: url(../images/our_colletion.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .product__info-item {
+    margin-bottom: 47px;
+  }
+
+  .product__link {
+    display: flex;
+  }
+
+  #product__info-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 126px;
+  }
+  .product__info-title {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    color: #333d4b;
+  }
+
+  .product__info-description {
+    text-align: left;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 167% */
+
+    color: #333d4b;
+  }
+}
