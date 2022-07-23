@@ -37,10 +37,10 @@
   background-size: cover;
 }
 
-#banner__title {
+.banner__title {
   display: inline-block;
   margin-left: 85px;
-  font-family: "Fraunces 9pt";
+  font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
@@ -49,8 +49,9 @@
   color: #fefcf7;
 }
 
-#banner__description {
+.banner__description {
   width: 445px;
+  margin-top: 24px;
   margin-left: 85px;
   font-family: "Barlow";
   font-style: normal;
@@ -61,6 +62,38 @@
   color: #fefcf7;
 }
 
+@media only screen and (max-width: 768px) {
+  .banner {
+    height: 313px;
+    margin-top: 45px;
+    padding-top: 137px;
+    border-radius: 8px;
+    background-image: url(../images/Bitmap-resp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner__title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    color: #fefcf7;
+  }
+  .banner__description {
+    width: 375px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+}
 .commitment {
   margin-top: 168px;
   display: flex;
@@ -71,7 +104,8 @@
   margin-top: 90px;
 }
 
-#commitment__title {
+.commitment__title {
+  margin-bottom: 32px;
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
@@ -81,7 +115,7 @@
   color: #333d4b;
 }
 
-#commitment__description {
+.commitment__description {
   width: 500px;
   font-family: "Barlow";
   font-style: normal;
@@ -94,6 +128,34 @@
   opacity: 0.8;
 }
 
+@media only screen and (max-width: 768px) {
+  .commitment__info {
+    margin-top: 0;
+    margin-left: 69px;
+  }
+  .commitment__title {
+    margin-bottom: 30px;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+    color: #333d4b;
+  }
+  .commitment__description {
+    width: 322px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    color: #333d4b;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+}
 .hero {
   margin-top: 158px;
   width: 1280px;
@@ -235,13 +297,28 @@ svg path:hover {
   fill: coral;
 }
 
-h1, h2, h3, h4, p, ul, li {
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
   padding: 0;
   margin: 0;
 }
 
 .container {
-  width: 1400px;
+  width: 1300px;
   margin: 0 auto;
   padding: 0 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    border: 1px solid red;
+    width: 768px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
 }/*# sourceMappingURL=main.css.map */

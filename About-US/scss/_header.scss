@@ -42,10 +42,10 @@
   background-size: cover;
 }
 
-#banner__title {
+.banner__title {
   display: inline-block;
   margin-left: 85px;
-  font-family: 'Fraunces 9pt';
+  font-family: 'Fraunces';
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
@@ -55,8 +55,9 @@
   color: #fefcf7;
 }
 
-#banner__description {
+.banner__description {
   width: 445px;
+  margin-top: 24px;
   margin-left: 85px;
   font-family: 'Barlow';
   font-style: normal;
@@ -66,4 +67,43 @@
   /* or 162% */
 
   color: #fefcf7;
+}
+// RESPONSIVE
+
+@media only screen and (max-width: 768px) {
+  .banner {
+    height: 313px;
+    margin-top: 45px;
+    padding-top: 137px;
+    border-radius: 8px;
+    background-image: url(../images/Bitmap-resp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__title {
+      font-family: 'Fraunces';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 40px;
+      /* identical to box height, or 125% */
+
+      color: #fefcf7;
+    }
+
+    &__description {
+      width: 375px;
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      /* or 167% */
+
+      color: #fefcf7;
+
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
+  }
 }

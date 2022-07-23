@@ -39,13 +39,18 @@
         <!-- BANNER  STYLE -->
 
         <div class="banner">
-          <h1 id="banner__title">About Us</h1>
-          <p id="banner__description">
+          <h1 class="banner__title">About Us</h1>
+          <p class="banner__description">
             Coffeeroasters began its journey of exotic discovery in 1999, highlighting stories of coffee from around the
             world. We have since been dedicated to bring the perfect cup - from bean to brew - in every shipment.
           </p>
         </div>
     </header>
+
+    
+    <!-- MAIN STYLE -->
+
+
     <main>
       <div class="container">
 
@@ -53,10 +58,15 @@
 
 
         <div class="commitment">
-          <img src="./images/commitment.png" alt="commitment" width="485" height="606">
+          <picture>
+	          <source srcset="./images/commitment.png" media="(max-width: 1400px, min-width: 768px)"> 
+	          <img src="images/commitment-resp.jpg" width="281" height="470"> 
+          </picture>
+         
           <div class="commitment__info">
-            <h1 id="commitment__title">Our commitment</h1>
-            <p id="commitment__description">We’re built on a simple mission and a commitment to doing good along the
+            <h1 class="commitment__title">Our commitment</h1>
+            <p class="commitment__description">
+              We’re built on a simple mission and a commitment to doing good along the
               way. We want to make it easy for you to
               discover and brew the world’s best coffee at home. It all starts at the source. To locate the specific
               lots we want to
@@ -68,7 +78,8 @@
               plant science.
               Curating only the finest blends, we roast each lot to highlight tasting profiles distinctive to their
               native growing
-              region.</p>
+              region.
+            </p>
           </div>
         </div>
 

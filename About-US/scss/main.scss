@@ -1,16 +1,30 @@
-@import './header.scss';
-@import 'commitment.scss';
-@import 'hero.scss';
-@import 'headquarter.scss';
-@import 'footer.scss';
+@import 'header';
+@import 'commitment';
+@import 'hero';
+@import 'headquarter';
+@import 'footer';
 
-
-h1, h2, h3, h4, p, ul, li{
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
   padding: 0;
   margin: 0;
 }
 .container {
-  width: 1400px;
+  width: 1300px;
   margin: 0 auto;
   padding: 0 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    border: 1px solid red;
+    width: 768px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
 }
