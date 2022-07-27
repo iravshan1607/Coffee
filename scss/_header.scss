@@ -109,7 +109,7 @@
   margin-bottom: 116px;
 }
 
-// RESPONSIVE
+// RESPONSIVE  TABLE
 
 @media only screen and (max-width: 768px) {
   #banner {
@@ -174,4 +174,9 @@
       }
     }
   }
+}
+
+// RASPONSIVE MOBILE
+
+@media only screen and (max-width: 375) {
 }

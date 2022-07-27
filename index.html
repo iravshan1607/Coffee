@@ -39,16 +39,16 @@
       <header id="header">
         <div id="header__logo">
           <a href="#">
-            <img
-              id="header__logo-img"
-              src="images/logo.svg"
-              alt="header__logo"
-              width="236"
-              height="26"
-            />
+            <picture>
+              <source srcset="images/logo.svg" media="(max-width: 768px)" />
+              <img src="images/coffeeroasters.svg" width="140" height="17" />
+            </picture>
           </a>
           <div class="navbar">
-            <ul>
+            <input type="checkbox" class="toggle-menu" />
+            <div class="hamburger"></div>
+
+            <ul class="menu">
               <li><a href="#">HOME</a></li>
               <li>
                 <a href="About-US/index.html" target="_blank">
@@ -80,7 +80,7 @@
       <main>
         <!-- PRODUCT INFO STYLE -->
 
-        <div class="product__info">
+        <!-- <div class="product__info">
           <ul id="product__info-list">
             <li class="product__info-item">
               <a href="#" class="product__link">
@@ -155,11 +155,11 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div> -->
 
         <!-- ABOUT US STYLE -->
 
-        <div id="about">
+        <!-- <div id="about">
           <div class="about__hero">
             <h2 id="about__title">Why choose us?</h2>
             <p id="about__description">
@@ -211,11 +211,11 @@
               </div>
             </li>
           </ul>
-        </div>
+        </div> -->
 
         <!-- How it works -->
 
-        <div class="works">
+        <!-- <div class="works">
           <p id="works__title">How it works</p>
           <div id="works__oval">
             <p class="oval"></p>
@@ -259,12 +259,12 @@
           </div>
 
           <a id="works__link" href="#" target="_blank">Create your plan</a>
-        </div>
+        </div> -->
       </main>
 
       <!-- FOOTER -->
 
-      <footer>
+      <!-- <footer>
         <div class="footer">
           <img
             src="./images/footer-logo.svg"
@@ -332,7 +332,7 @@
             </a>
           </div>
         </div>
-      </footer>
+      </footer> -->
     </div>
   </body>
 </html>
